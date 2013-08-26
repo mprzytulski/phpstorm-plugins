@@ -1,7 +1,7 @@
 <?php 
 define('BASE_DIR', '/var/www/domains/projectspace.pl/web/plugins/');
 define('PHPSPEC_VERSION', '0.1');
-define('BEHAT_VERSION', '0.1');
+define('BEHAT_VERSION', '0.3.2');
 ?>
 <!doctype html>
 <html>
