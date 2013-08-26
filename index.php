@@ -1,10 +1,13 @@
+<?php 
+define('BASE_DIR', '/var/www/domains/projectspace.pl/web/plugins/');
+?>
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Welcome to home of PhpStorm BDD plugins.</title>
-
+    <base href="/plugins/" />
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -15,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-		  <?php include 'elements/right_column.php'; ?>
+		  <?php include BASE_DIR.'/elements/right_col.php'; ?>
       </header>
       <section>
         <h2><a name="behat" class="anchor" href="#behat"><span class="octicon octicon-link"></span></a>Behat / <a href="./behat">Screenshots</a></h2>
