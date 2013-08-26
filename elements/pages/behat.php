@@ -1,5 +1,5 @@
-<h2>phpspec</h2>
-<h3><a href="phpspec/">Description</a> | <a href="phpspec/screenshots">Screenshots</a></h3>
+<h2>Behat</h2>
+<h3><a href="behat/">Description</a> | <a href="behat/screenshots">Screenshots</a></h3>
 
 <h4>General:</h4>
 <ul>
