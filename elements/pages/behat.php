@@ -1,23 +1,32 @@
-<p>Feature annotations completion</p>
-<img src="./images/screenshots/behat/context_annotations.png" />
-<p>Sub context name type completion</p>
-<img src="./images/screenshots/behat/context_name_provider.png" />
-<p>Context return type provider</p>
-<img src="./images/screenshots/behat/context_type_hinting.png" />
-<p>Feature file generator file</p>
-<img src="./images/screenshots/behat/feature_form.png" />
-<p>Feature file Behat tags completion</p>
-<img src="./images/screenshots/behat/feature_tags.png" />
-<p>Behat and Page Object extension file templates</p>
-<img src="./images/screenshots/behat/file_templates.png" />
-<img src="./images/screenshots/behat/file_templates_context.png" />
-<p>Gherkin step reference provider</p>
-<img src="./images/screenshots/behat/gherkin_step_reference.png" />
-<p>Sub context, Page Object and Elements inspection</p>
-<img src="./images/screenshots/behat/page_object_name_inspection.png" />
-<p>Quick fix for missing Page Objects</p>
-<img src="./images/screenshots/behat/page_object_quick_fix.png" />
-<p>Page Object and Elements reference provider</p>
-<img src="./images/screenshots/behat/page_object_reference.png" />
-<p>Custom icons for Behat related files</p>
-<img src="./images/screenshots/behat/project_browser_custom_icon.png" />
+<h2>phpspec</h2>
+<h3><a href="phpspec/">Description</a> | <a href="phpspec/screenshots">Screenshots</a></h3>
+
+<h4>General:</h4>
+<ul>
+	<li>Custom icon for Behat Context and PageObjects files</li>
+</ul>
+
+<h4>Feature file:</h4>
+<ul>
+	<li>tag auto completion</li>
+	<li>reference provider for Gherkin steps</li>
+</ul>
+
+<h4>Behat context:</h4>
+<ul>
+	<li>reference and inspection provider for PageObjcet names</li>
+	<li>reference and inspection provider for SubContext names</li>
+	<li>create PageObject quick fix for missing classes</li>
+	<li>type hinting for getMainContext() method</li>
+	<li>type hinting for getSubContext() method</li>
+	<li>parameter auto completion for getSubContext() method with names of available contextes</li>
+	<li>annotation hinting</li>
+</ul>
+
+<h4>Page Objects extension:</h4>
+<ul>
+	<li>quick fix for missing PageObjects and PageObject elements</li>
+	<li>reference provider for getElement and hasElement method of PageObject classes</li>
+	<li>type hinting for getPage() and getElement() methods</li>
+	<li>parameter auto completion for getPage() method with names of available pages in current project</li>
+</ul>
