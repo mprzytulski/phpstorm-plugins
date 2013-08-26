@@ -1,5 +1,7 @@
 <?php 
 define('BASE_DIR', '/var/www/domains/projectspace.pl/web/plugins/');
+define('PHPSPEC_VERSION', '0.1');
+define('BEHAT_VERSION', '0.1');
 ?>
 <!doctype html>
 <html>
@@ -18,7 +20,7 @@ define('BASE_DIR', '/var/www/domains/projectspace.pl/web/plugins/');
   <body>
     <div class="wrapper">
       <header>
-		  <?php include BASE_DIR.'/elements/right_col.php'; ?>
+		  <?php include BASE_DIR.'/elements/left_column.php'; ?>
       </header>
       <section>
 		  <?php
